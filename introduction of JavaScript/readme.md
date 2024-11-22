@@ -60,6 +60,9 @@ Online Games
 
 JavaScript works in our websites by interacting with the Document Object Model (DOM), the structure of the web page, and responding to user events (like clicks, scrolls, and key presses). It is executed by the browser's JavaScript engine to perform tasks such as modifying HTML, CSS, and making requests to servers.
 
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 ### Famous Browser Engines for compiling Javascript ?
 
@@ -79,6 +82,10 @@ JavaScript works in our websites by interacting with the Document Object Model (
 - #### With Visual Studio Code
 ![alt text](image-1.png)
 
+- ### online Compilers like `codewithkrishna.vercel.app`
+[visit CodeWithKrishna](https://codewithkrishna.vercel.app/playground)
+![alt text](image-4.png)
+
 ### Hello World in JavaScript ?
 
 
@@ -92,8 +99,31 @@ Step 3: between Opening and Closing Script tag write
     console.log("Hello Krishna !")
 ```
 
+# or
 
-### Interview Question (Most Asked Questions)
+
+```js
+    document.write("Hello Krishna !")
+```
+
+# Conclusion
+
+JavaScript is a foundational technology in modern web development, enabling the creation of dynamic, interactive, and user-friendly web applications. Developed by Brendan Eich in 1995, JavaScript has evolved into a versatile language that powers both the client and server sides of applications, thanks to environments like Node.js.
+
+## Key takeaways about JavaScript:
+
+
+- It is lightweight, interpreted, and dynamically typed.
+- It is essential for front-end web development and is increasingly used for back-end development.
+- JavaScript's ability to manipulate the DOM and handle asynchronous operations makes it a cornerstone of interactive web design.
+
+By understanding JavaScript's history, features, and applications, beginners can lay a strong foundation for mastering this powerful programming language.
+
+
+-----
+
+
+# Interview Question (Most Asked Questions)
 
 1. ####  What is JavaScript, and how is it different from Java?
 
@@ -136,20 +166,5 @@ Step 3: between Opening and Closing Script tag write
 
 
 
-# Conclusion
 
-JavaScript is a foundational technology in modern web development, enabling the creation of dynamic, interactive, and user-friendly web applications. Developed by Brendan Eich in 1995, JavaScript has evolved into a versatile language that powers both the client and server sides of applications, thanks to environments like Node.js.
-
-## Key takeaways about JavaScript:
-
-
-- It is lightweight, interpreted, and dynamically typed.
-- It is essential for front-end web development and is increasingly used for back-end development.
-- JavaScript's ability to manipulate the DOM and handle asynchronous operations makes it a cornerstone of interactive web design.
-
-By understanding JavaScript's history, features, and applications, beginners can lay a strong foundation for mastering this powerful programming language.
-
-
------
-
-![alt text](<Group 295.png>)
+<!-- ![alt text](<Group 295.png>) -->
