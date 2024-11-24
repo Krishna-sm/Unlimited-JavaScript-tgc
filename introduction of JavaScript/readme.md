@@ -4,19 +4,19 @@
 
 ### Purpose for Inventing JavaScript ?
 
->- `Early Web Limitations:`
+- `Early Web Limitations:`
 
 In the early days of the web, HTML was the only language available for creating web pages. HTML was a static language, meaning it could only display content. There was no way to create interactive elements or respond to user actions.
 
->- `The Need for Interactivity:`
+- `The Need for Interactivity:`
 
 As the web evolved, there was a growing demand for more dynamic and interactive experiences. Developers wanted to create web pages that could respond to user input, update content without reloading the page, and provide a more engaging user experience.
 
->- `Netscape's Solution:`
+- `Netscape's Solution:`
 
 In 1995, Netscape Communications, the company behind the popular Netscape Navigator browser, decided to address this need. They hired Brendan Eich to develop a scripting language that could be embedded in HTML pages.
 
->- `Birth of JavaScript:`
+- `Birth of JavaScript:`
 
 Brendan Eich created JavaScript in just 10 days. Initially called Mocha, then LiveScript, it was finally named JavaScript. JavaScript allowed developers to add dynamic content, handle user events, and manipulate the HTML elements on a web page.
 
@@ -165,6 +165,11 @@ By understanding JavaScript's history, features, and applications, beginners can
 
 
 
+```krishna
 
+    only , I am the good person in the world. ❌
+     I am the good person in the world. ✔
+
+```
 
 <!-- ![alt text](<Group 295.png>) -->
