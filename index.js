@@ -1,33 +1,54 @@
-/**
- * 
- * @param {String} name 
- * @param {Number} age 
- * @returns {String}
- */
+// /**
+//  * 
+//  * @param {String} name 
+//  * @param {Number} age 
+//  * @returns {String}
+//  */
 
-function Krishna(name,age){
+// function Krishna(name,age){
    
-}
+// }
 
-Krishna()
+// Krishna()
 
 
-/**
- * @returns {String}
- */
+// /**
+//  * @returns {String}
+//  */
+// var a;
+
+// console.log(a);
+
+
+
+
+// /**
+//  * Calculates the sum of two numbers.
+//  * @param {number} a - The first number.
+//  * @param {number} b - The second number.
+//  * @return {number} - The sum of the two numbers.
+//  */
+// function add(a, b) {
+//     return a + b;
+// }
+
+// // function a (){
+// //     return function (){
+// //        return  function (){
+// //         console.log("b");
+// //        }
+        
+// //     }
+// // } 
+
+
+// // console.log(a()()());
+
 var a;
+console.log(a); 
 
-console.log(a);
+let b;
+console.log(b);
 
-
-
-
-/**
- * Calculates the sum of two numbers.
- * @param {number} a - The first number.
- * @param {number} b - The second number.
- * @return {number} - The sum of the two numbers.
- */
-function add(a, b) {
-    return a + b;
-}
+const c;
+console.log(c); 
