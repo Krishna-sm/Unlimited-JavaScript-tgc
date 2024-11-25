@@ -237,7 +237,10 @@ function add(a, b) {
 -------
 
 ```krishna
-
-Vo ishq kaisa jisme pyaar na ho, aur vo code kaisa jisme error na ho.
+  तुमने जो किया मुझे नजरअंदाज, मैं समझ नहीं पाया,
+  बाद में पता चला कि तुमने तो मेरे ससुर से मिलवाने के लिए
+  JavaScript में मल्टी-लाइन कमेंट लगाया।
+  
+  --krishna
 
 ```
