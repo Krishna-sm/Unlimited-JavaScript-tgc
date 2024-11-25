@@ -257,7 +257,8 @@ a=23;//❌ assignment to const variable not possible
 --------------
 
 ```krishna
-
-        
-
+    
+   रख लो मुझे अपने दिल में, बस ये एक एहसान कर लेना,
+बाकी, जब मिल जाए वक्त तो मुझे console.log() कर देना।
+    
 ```
