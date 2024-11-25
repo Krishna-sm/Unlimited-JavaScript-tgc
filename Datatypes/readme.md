@@ -408,7 +408,7 @@ person.country = "USA";   // Adding a new property to the object
 console.log(person);      // Output: { name: "John", age: 30, occupation: "Developer", country: "USA" }
 
 ```
-
+# Practice Question
 
 1. **What is the output of the following code?**
     ```js
