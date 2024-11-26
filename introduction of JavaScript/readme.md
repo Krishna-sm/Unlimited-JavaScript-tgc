@@ -167,8 +167,8 @@ By understanding JavaScript's history, features, and applications, beginners can
 
 ```krishna
 
-    आज मैंने तुझें पहली बार देखा, देखकर मैं उलझ गया,
-    बाद में पता चला कि कमबख्त ये दिल जावास्क्रिप्ट का हो गया।
+    आज मैंने तुम्हें पहली बार देखा, देखकर मैं उलझ गया,
+    बाद में पता चला कि कमबख्त ये दिल JavaScript  का हो गया है।
 
     -- krishna
 
