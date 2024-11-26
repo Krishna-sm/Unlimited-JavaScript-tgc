@@ -109,12 +109,28 @@
     
     
 
-    const user = '{"name": "Krishna"}';
+    // const user = '{"name": "Krishna"}';
 
-    console.log(Object(user))
-    console.log(JSON.parse(user))
-
-
+    // console.log(Object(user))
+    // console.log(JSON.parse(user))
 
 
+
+
+    var a = 10 
+
+    a+=10
+    console.log(a);
+    a-=2
+    console.log(a);
+    a*=2
+    console.log(a);
+    a/=2
+    console.log(a);
+    a%=2
+    console.log(a);
+    
+    
+
+console.log(typeof(true) instanceof Boolean);
 
