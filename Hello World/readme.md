@@ -50,7 +50,7 @@
 
 # Print Any Error Statement
 
-- To print any warning Statement we use `error` method which is available `console` interface.
+- To print any Error Statement we use `error` method which is available `console` interface.
 
 ### Syntax
 ```js
@@ -112,14 +112,14 @@ const scores = {
 ### Syntax
 ```js
 
-        console.log("<data>") // array or objects
+        console.table("<data>") // array or objects
 
 ```
 
 ### Example
 
 ```js
-    console.log(data)
+    console.table(data)
 
 ```
 

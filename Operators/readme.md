@@ -2,7 +2,7 @@
 
 - In JavaScript, operators are used to perform mathematical operations like addition, subtraction, multiplication, and division between two numbers.
 - Operators are also used to compare values and perform conditional tasks.
-
+![alt text](image-13.png)
 ## Types of Operators
 
 - ### Assignment Operator
@@ -11,7 +11,7 @@
 - ### Comparison Operators
 - ### Bitwise Operators
 - ### Postfix and Prefix Operators
-- ### Relationship Operator
+- ### Membership Operator
 - ### Logical Operators
 - ### Ternary Operator
 - ### instanceOf Operator
@@ -28,7 +28,7 @@
     console.log(b)
 ```
 ![alt text](image-8.png)
-
+![alt text](image-14.png)
 ## `Arithmetic` Operators 
 
 - In JavaScript, the operators used for `addition`, `subtraction`, `multiplication`, and other arithmetic operations are called arithmetic operators.
@@ -235,6 +235,8 @@
 | **Not Equal (`!=`)** | `5 != 3`        | Checks if the left operand is not equal to the right operand. | Performs type coercion, which can lead to unexpected results (e.g., `5 != "5"` is false). |
 | **Equal (`==`)** | `5 == 5`        | Checks if the left operand is equal to the right operand, ignoring data type. | Can cause bugs due to type coercion (e.g., `5 == "5"` is true). |
 | **Strict Equal (`===`)** | `5 === 5`       | Checks if the left operand is equal to the right operand, including the data type. | Requires careful attention to both value and type, which may be verbose in some cases. |
+
+![alt text](image-15.png)
 ## Bitwise Operators
 
 - In JavaScript, bitwise operators are used for binary calculations, such as addition, multiplication, or XOR operations. In simple terms, they work on binary bits.
@@ -271,8 +273,8 @@
 | **Pre-decrement (`--a`)** | `--a`          | Decrements the value of `a` by 1 before using it in an expression. | May cause confusion when used in complex expressions.   |
 | **Post-increment (`a++`)** | `a++`          | Increments the value of `a` by 1 after using it in an expression. | May lead to unexpected results if the incremented value is used in the same statement. |
 | **Post-decrement (`a--`)** | `a--`          | Decrements the value of `a` by 1 after using it in an expression. | Can cause logical errors if not carefully used in complex expressions. |
-## Relationship Operator
-- In JavaScript, relational operators are used to determine the relationship between values or variables.
+## Membership Operator
+- In JavaScript, Membership operator are used to determine the relationship between values or variables.
 
 - Operators are:
     - in 
@@ -298,6 +300,8 @@
 | **Double OR (`||`)**   | `true || false` | Evaluates to `true` if at least one condition is true. Used for logical OR between multiple conditions. | Can be confusing when dealing with non-boolean values, as it performs type coercion. |
 | **Double AND (`&&`)**  | `true && false` | Evaluates to `true` only if all conditions are true. Used for logical AND between multiple conditions. | Can result in unexpected behavior when used with falsy values, which might not always behave as expected. |
 | **NOT (`!`)**          | `!true`         | Reverses the boolean value. Useful for negating a condition. | May be unclear if used on complex expressions without parentheses, especially for beginners. |
+
+![alt text](image-16.png)
 ## Ternary Operator
 - Ternary operators in JavaScript are used to determine the result based on a condition being true or false.
 
@@ -317,6 +321,8 @@
 
 ## instanceOf Operator
 - The instanceof operator is generally used to check the `instance (object)` of a variable.
+
+
 
 ```js
         // Example 1: Checking if a variable is an instance of a specific object type
@@ -344,6 +350,8 @@
 ```
 
 ![alt text](image-12.png)
+
+![alt text](image-17.png)
 
 ### Interview Questions
 
@@ -419,9 +427,9 @@ Bitwise operators perform operations on binary numbers at the bit level. Common 
 - Prefix operators: The operation is performed before the value is used. Example: ++a increments a before using its new value.
 
 
-## 7. What is a relational operator in JavaScript?
+## 7. What is a Membership operator in JavaScript?
 
-Relational operators are used to compare two values and determine the relationship between them. Common relational operators are:
+Membership operators are used to check the value is exist in collection. Common Membership operators are:
 
 - in
 
@@ -468,7 +476,8 @@ console.log(john instanceof Person);  // true
 ----
 
 ```krishna
-
+अकेला बहुत हूँ, काश आज तुम मेरे साथ होती,
+दिल को जरूरत है तुम्हारे साथ की,
+अगर तुम साथ होती, तो शायद बात अलग होती।
         
-
 ```
