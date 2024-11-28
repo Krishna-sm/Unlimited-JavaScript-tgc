@@ -9,4 +9,5 @@
 5. [DataTypes](/Datatypes/readme.md)
 6. [Type Casting](/TypeCasting/readme.md)
 7. [Operators](/Operators/readme.md)
-7. [Conditional Statements](/Conditional%20Statement/readme.md)
+8. [Conditional Statements](/Conditional%20Statement/readme.md)
+9. [Loops](/Loops/readme.md)
