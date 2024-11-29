@@ -21,6 +21,8 @@ There are several types of loops in JavaScript, each serving different purposes:
 4. ### For in Loop
 5. ### For of Loop 
 5. ### For Each Loop 
+6. ### Nested For Loop
+7. ### break and continue Statement
 ![alt text](image-11.png)
 
 ## Do...While Loop
@@ -255,105 +257,140 @@ numbers.forEach(function(number, index) {
 | **while**        | `while (condition) { /* code */ }`                                                     | Executes as long as the condition is true.                                | Values in an array or general conditions      | Returns `undefined`. Can break or continue.    | Ideal when the number of iterations is not known in advance but depends on a condition.|
 | **do...while**   | `do { /* code */ } while (condition);`                                                  | Executes at least once, then repeats if the condition is true.            | Values or conditions                           | Returns `undefined`. Can break or continue.    | Guarantees at least one execution, even if the condition is false initially.         |
 
-# Interview Questions
+## Nested For Loop
+- Nested for loop in JavaScript or a loop within a loop
 
-## 1. What is the difference between a `for` loop and a `for...in` loop in JavaScript?
-
-### `for` loop:
-- A traditional loop used for iterating over a range of values.
-- Typically used when you know the number of iterations in advance.
-- Can loop through arrays or other iterable objects using an index.
-
-```javascript
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
+```js
+// Outer loop
+for (let i = 0; i < 3; i++) {
+    console.log(`Outer loop iteration: ${i}`);
+    
+    // Inner loop
+    for (let j = 0; j < 3; j++) {
+        console.log(`  Inner loop iteration: ${j}`);
+    }
 }
 ```
-### `for...in` loop:
-- Used to iterate over the keys or properties of an object (including arrays).
-- Not ideal for arrays where you need index-based iteration, as it enumerates keys, not values.
+![alt text](image-13.png)
+
+
+## break and continue
+- In JavaScript, `break` and `continue` are control flow statements that are used within loops to alter the flow of execution. Specifically, they are part of loop control. Here's how they work:
+
+- `break`:
+The `break` statement is used to immediately exit from a loop or switch statement, regardless of the condition. It stops the execution of the loop entirely.
+
 ```js
-let person = { name: "Alice", age: 25 };
+// Example using break
+for (let i = 0; i < 5; i++) {
+  if (i === 3) break; // Exit the loop when i is 3
+  console.log(i);
+}
+```
+![alt text](image-14.png)
+
+
+- `continue`:
+The `continue` statement is used to skip the current iteration of a loop and proceed to the next iteration. It only affects the current loop iteration, not the entire loop.
+
+```js
+// Example using continue
+for (let i = 0; i < 5; i++) {
+  if (i === 2) continue; // Skip when i is 2
+  console.log(i);
+}
+```
+![alt text](image-15.png)
+# Interview Questions
+ 
+### 1. What is a **do-while** loop in JavaScript?
+
+A `do-while` loop executes the block of code once, before checking the condition, and then repeats the loop as long as the condition is `true`.
+
+```javascript
+do {
+  // Code to be executed
+} while (condition);
+```
+
+### 2. What is the difference between a `while loop` and a `do-while loop`?
+
+- A `while loop` checks the condition before executing the code. If the condition is false initially, the code won't run.
+- A `do-while loop` checks the condition after the code is executed, ensuring the loop runs at least once.
+
+### 3.How does a for loop work in JavaScript?
+- A `for` loop repeats a block of code a specific number of times, based on the initialization, condition, and increment/decrement expression.
+
+```js
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+### 4. What is the purpose of the for-in loop?
+The `for-in` loop is used to iterate over the properties of an object.
+
+```js
+const person = { name: "Alice", age: 25 };
 for (let key in person) {
   console.log(key, person[key]);
 }
-
 ```
 
-
-
-
-
-## 2. Can you explain the behavior of the `for...of` loop? How does it differ from `for...in`?
-
-### `for...of` loop:
-- The `for...of` loop is used to iterate over **iterable objects** (such as arrays, strings, maps, sets, etc.).
-- It directly accesses the **values** of the iterable, not the keys or indices.
-
-```javascript
-let array = [1, 2, 3];
-for (let value of array) {
+### 5.What is the purpose of the for-of loop?
+- The `for-of` loop is used to iterate over the values of iterable objects like arrays, strings, etc.
+```js
+const arr = [1, 2, 3];
+for (let value of arr) {
   console.log(value);
 }
-// Output: 1, 2, 3
 ```
 
-### Difference between for...in and for...of:
-- `for...in`: Iterates over the keys or property names of an object (or array, but may not be ideal for arrays). It can loop through non-numeric keys as well.
-- `for...of`: Iterates over the values of an iterable object, like arrays, strings, and other collections.
- 
-## 3. You have an array of numbers. Write a JavaScript function that finds the first number greater than 10 using a loop. 
+### 6.What is the forEach method in JavaScript?
+- The `forEach()` method is an array method that executes a provided function once for each array element.
 
-```javascript
-function findFirstGreaterThanTen(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > 10) {
-      return arr[i];  // Return the first number greater than 10
-    }
+```js
+const arr = [1, 2, 3];
+arr.forEach(item => console.log(item));
+```
+
+### 7. What is a nested for loop?
+- A nested `for` loop is a loop inside another loop. The inner loop runs completely for each iteration of the outer loop.
+
+```js
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 3; j++) {
+    console.log(i, j);
   }
-  return null;  // Return null if no number is greater than 10
 }
 
-// Example usage:
-const numbers = [3, 5, 8, 12, 7, 14];
-console.log(findFirstGreaterThanTen(numbers));  // Output: 12
 ```
 
+### 8. How do you access the index in a forEach loop?
+- The `forEach()` method provides access to the index as the second parameter of the callback function.
 
+```js
+const arr = [10, 20, 30];
+arr.forEach((value, index) => {
+  console.log(index, value); // Logs index and value
+});
+```
+### 9.How do you break out of a for loop in JavaScript?
+- You can use the `break` statement to exit a `for` loop early.
 
-## 4. How can you use a loop to solve this problem: Find all the prime numbers from 1 to N?
-
-```javascript
-function findPrimesUpToN(N) {
-  let primes = [];
-
-  for (let num = 2; num <= N; num++) {
-    let isPrime = true;
-    
-    // Check if num is divisible by any number from 2 to sqrt(num)
-    for (let i = 2; i <= Math.sqrt(num); i++) {
-      if (num % i === 0) {
-        isPrime = false;
-        break;
-      }
-    }
-    
-    // If isPrime is still true, then num is prime
-    if (isPrime) {
-      primes.push(num);
-    }
-  }
-
-  return primes;
+```js
+for (let i = 0; i < 5; i++) {
+  if (i === 3) break; // Break when i is 3
+  console.log(i);
 }
-
-// Example usage:
-const N = 20;
-console.log(findPrimesUpToN(N));  // Output: [2, 3, 5, 7, 11, 13, 17, 19]
 ```
 
-![alt text](image-7.png)
-
+### 10.Can you use continue in a for loop?
+```js
+for (let i = 0; i < 5; i++) {
+  if (i === 2) continue; // Skip when i is 2
+  console.log(i);
+}
+```
 
 # Practice Question
 
@@ -417,5 +454,20 @@ console.log(findPrimesUpToN(N));  // Output: [2, 3, 5, 7, 11, 13, 17, 19]
 20. **Find Common Elements Between Two Arrays**  
     Write a function that finds and returns the common elements between two arrays.
 
+21. What will be the output of the following code?
+```js
+for (let i = 0; i < 5; i++) {
+  if (i === 3) continue;
+  
+  console.log(i);
+}
+
+```
+
+22. How can you use the break and continue statements in a while loop? Provide examples.
 
 -------
+```krishna
+
+--krishna
+````

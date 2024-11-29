@@ -60,11 +60,11 @@ keyword variable_name = value;
     var 122="Krishna !";// ❌ 
     var a$%="Krishna !";// ❌
     var $%v="Krishna !";// ❌
+    var $% v="Krishna !";// ❌
+    var user name="Krishna !";// ❌
     var user_name="Krishna !";// ✅
-    var $% v="Krishna !";// ✅
     var name="Krishna !";// ✅
     var name0="Krishna !";// ✅
-    var user name="Krishna !";// ❌
 
 ```
 

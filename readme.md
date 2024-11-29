@@ -11,3 +11,4 @@
 7. [Operators](/Operators/readme.md)
 8. [Conditional Statements](/Conditional%20Statement/readme.md)
 9. [Loops](/Loops/readme.md)
+10. [Strings](/Strings/readme.md)
