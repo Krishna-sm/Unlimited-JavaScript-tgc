@@ -12,3 +12,5 @@
 8. [Conditional Statements](/Conditional%20Statement/readme.md)
 9. [Loops](/Loops/readme.md)
 10. [Strings](/Strings/readme.md)
+11. [1-D Array](/Array/readme.md)
+12. [Data Structure](/Data%20Structure/readme.md)
