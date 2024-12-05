@@ -13,4 +13,5 @@
 9. [Loops](/Loops/readme.md)
 10. [Strings](/Strings/readme.md)
 11. [1-D Array](/Array/readme.md)
+11. [2-D Array](/2%20D%20Array/readme.md)
 12. [Data Structure](/Data%20Structure/readme.md)
