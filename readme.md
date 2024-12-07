@@ -16,4 +16,5 @@
 12. [Strings](/Strings/readme.md)
 13. [1-D Array](/Array/readme.md)
 14. [2-D Array](/2%20D%20Array/readme.md)
+15. [DOM](/DOM/readme.md)
 15. [Data Structure](/Data%20Structure/readme.md)
