@@ -255,42 +255,55 @@ window.addEventListener("resize", () => {
 
 # Practice Questions
 
-### 1. **What does the `window` object represent in a web browser environment?**
+##### 1. **What does the `window` object represent in a web browser environment?**
    
-### 2. **How would you use the `window.alert()` method in JavaScript? Provide an example.**
+##### 2. **How would you use the `window.alert()` method in JavaScript? Provide an example.**
 
-### 3. **What is the difference between `window.confirm()` and `window.prompt()`? Provide an example for each.**
+##### 3. **What is the difference between `window.confirm()` and `window.prompt()`? Provide an example for each.**
 
-### 4. **How would you open a new browser window with the URL `https://www.example.com` and set its width to 500px and height to 400px?**
+##### 4. **How would you open a new browser window with the URL `https://www.example.com` and set its width to 500px and height to 400px?**
 
-### 5. **What does `window.setTimeout()` do, and how would you use it to execute a function after 3 seconds?**
+##### 5. **What does `window.setTimeout()` do, and how would you use it to execute a function after 3 seconds?**
 
-### 6. **What is the difference between `window.setTimeout()` and `window.setInterval()`? Provide an example for each.**
+##### 6. **What is the difference between `window.setTimeout()` and `window.setInterval()`? Provide an example for each.**
 
-### 7. **How would you redirect the user to a new URL using `window.location`? Provide an example.**
+##### 7. **How would you redirect the user to a new URL using `window.location`? Provide an example.**
 
-### 8. **What does `window.location.reload()` do? How would you use it to reload the current page?**
+##### 8. **What does `window.location.reload()` do? How would you use it to reload the current page?**
 
-### 9. **How can you navigate the browser history using `window.history`? Write code to navigate to the previous page.**
+##### 9. **How can you navigate the browser history using `window.history`? Write code to navigate to the previous page.**
 
-### 10. **Explain the difference between `window.innerWidth` and `window.outerWidth`. How are they useful in responsive design?**
+##### 10. **Explain the difference between `window.innerWidth` and `window.outerWidth`. How are they useful in responsive design?**
 
-### 11. **How would you resize the current browser window to a width of 600px and height of 400px?**
+##### 11. **How would you resize the current browser window to a width of 600px and height of 400px?**
 
-### 12. **How can you scroll the window to a specific position (e.g., 500px down the page) using JavaScript?**
+##### 12. **How can you scroll the window to a specific position (e.g., 500px down the page) using JavaScript?**
 
-### 13. **How can you add an event listener for the `resize` event on the window object?**
+##### 13. **How can you add an event listener for the `resize` event on the window object?**
 
-### 14. **Write a function that opens a new tab with the URL `https://www.example.com`, and then closes the tab after 5 seconds.**
+##### 14. **Write a function that opens a new tab with the URL `https://www.example.com`, and then closes the tab after 5 seconds.**
 
-### 15. **What happens if you call `window.open()` with the same URL and target (`_blank`) multiple times?**
+##### 15. **What happens if you call `window.open()` with the same URL and target (`_blank`) multiple times?**
 
-### 16. **How do you check the current height and width of the browser’s viewport using JavaScript?**
+##### 16. **How do you check the current height and width of the browser’s viewport using JavaScript?**
 
-### 17. **How would you use `window.scrollTo()` to scroll the page to the top (x=0, y=0)?**
+##### 17. **How would you use `window.scrollTo()` to scroll the page to the top (x=0, y=0)?**
 
-### 18. **What does `window.scrollBy()` do, and how is it different from `window.scrollTo()`? Provide an example.**
+##### 18. **What does `window.scrollBy()` do, and how is it different from `window.scrollTo()`? Provide an example.**
 
-### 19. **What is the `window.performance` object, and how can you use it to measure page load times?**
+##### 19. **What is the `window.performance` object, and how can you use it to measure page load times?**
 
-### 20. **Write a function that repeatedly changes the background color of the page every 1 second using `window.setInterval()`.**
+##### 20. **Write a function that repeatedly changes the background color of the page every 1 second using `window.setInterval()`.**
+
+
+```krishna
+
+हम्म...
+तो एक शख़्स बोला मुझसे,
+उसकी हंसी सयानी सी है, आँखें फूल जैसी,
+दिल में हरियाली है, और बातें उससे भी ज्यादा निराली हैं।
+
+मिलेगी जब तुमको, हँसकर वो बोलेगी,
+हमसफ़र का तो पता नहीं, पर दोस्ती से शुरुआत कर लेगी।
+ --krishna
+```

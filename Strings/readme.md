@@ -549,8 +549,11 @@ Write a function that replaces all characters in a string that are not letters o
 
 
 ```krishna
-
-
+आज अचानक मैंने सोचा,
+कि गलियाँ बहुत सुनसान हैं,
+इनको भी आदत हो गई मुझे ग़म से चिढ़ाने की।
+फिर मैंने सोचा, यही तो मेरी किस्मत थी,
+जो मैंने अपने सपनों में मांगी थी।
 
 
 ---krishna
