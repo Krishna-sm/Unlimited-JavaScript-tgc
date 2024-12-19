@@ -206,5 +206,20 @@ Promises are a powerful feature in JavaScript for handling asynchronous operatio
 ------
 
 ```krishna
+Meri toh zindagi hasi hai, mujhe kisi aur ko lana nahi,
+Tumhare bina iss dil ko, kabhi kisi se behlana nahi.
 
+Kis baat ka gurur karun, jab saath tumhara chhod diya,
+Tumhare siva kisi aur se, kuch bhi kehna chor diya.
+
+Ishq ho ya ho koi ladai, zindagi ka maza lena hai,
+Baaton ka ek silsila hai, jo tumse aake kehna hai.
+
+Bas ek baar saath baitho, dil ki baat sunana hai,
+Jo baat hai andar chhupi, sab kuch tumhe batana hai.
+
+Lekar manzil dil mein ek, tanha hi main chala hoon,
+Par tumhare bina yaar, yeh safar adhoora jeene laga hoon.
+
+---krishna
 ```

@@ -697,6 +697,15 @@ What will `console.log(this)` print in the global scope vs inside an arrow funct
 
 ```krishna
 
+Meri hasi ka thikana nhi tha , 
+Jb jb chahre pr hasi aai tb tb kisi na kisi ne meri khamoshi ko yaad kiya ,
+Dil ko sukoon milna hota hai tha tabhi koi na koi muskil ne barbad kiya
+
+Ek asha hai dil se, jald chalein is jahaan se,
+Par jaane se pehle, ek baar toh saath baith kar,
+Chai pi lein aapke yahan se.
+
+
 -- Krishna
 
 ```

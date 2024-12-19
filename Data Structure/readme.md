@@ -523,3 +523,10 @@ if (result !== -1) {
 
 ### 15. What are the advantages of **using hash tables** in data storage?  
 **Answer**: Hash tables provide efficient data retrieval with average constant time complexity O(1) for search, insert, and delete operations, using keys for indexing data. They are ideal for scenarios involving fast lookups.  
+
+
+
+```krishna
+
+---krishna
+```
