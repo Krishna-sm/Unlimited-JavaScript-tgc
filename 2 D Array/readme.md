@@ -15,7 +15,7 @@ A 2D array is created by nesting arrays within another array. Each nested array 
     ]
 
 ```
-
+![alt text](image-9.png)
 ## How to Access Elements
 
 ```js
@@ -23,7 +23,7 @@ console.log(arr[0][1]);//2
 console.log(arr[3][3]);//4
 ```
 
-
+![alt text](image-10.png)
 ## How to iterate All Elements
 
 ```js
@@ -219,6 +219,8 @@ function traverse2DArray(array) {
 ```
 ## 2. Transpose a 2D Matrix
 Implement a function to transpose a 2D matrix.
+
+![alt text](image-8.png)
 
 ```js
 
