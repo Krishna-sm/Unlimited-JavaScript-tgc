@@ -3,6 +3,7 @@
 `XMLHttpRequest` (XHR) is a built-in browser object used to interact with servers and make HTTP requests. It allows data to be retrieved from a URL without having to refresh the page, enabling dynamic web applications.
 
 ---
+![alt text](image.png)
 
 ## **Features of XMLHttpRequest**
 1. Supports both synchronous and asynchronous requests.
@@ -11,7 +12,7 @@
 4. Compatible with older browsers.
 
 ---
-
+![alt text](image-1.png)
 ## **Basic Syntax**
 ```javascript
 const xhr = new XMLHttpRequest();
@@ -39,7 +40,7 @@ xhr.send();
 5. Send the request using `.send()`.
 
 ---
-
+![alt text](image-2.png)
 ## **Interview Questions and Answers**
 
 ### **1. What is XMLHttpRequest, and how is it used?**
