@@ -75,18 +75,136 @@ export function moduleExample() {
 ```
 
 ---
+ ## 1. **What is Strict Mode in JavaScript, and how do you enable it?**
 
-## 5 Interview Questions
+Strict Mode is a feature in JavaScript that enforces stricter parsing and error handling of your code, introduced in ECMAScript 5 (ES5). It helps catch common coding errors and prevent the use of unsafe features.
 
-1. **What is Strict Mode in JavaScript, and how do you enable it?**
-2. **What are the advantages of using Strict Mode?**
-3. **List some errors caught by Strict Mode that are ignored otherwise.**
-4. **Can you use Strict Mode selectively within a JavaScript file? How?**
-5. **What happens if you enable Strict Mode in older browsers?**
+### How to Enable Strict Mode
+Strict Mode can be enabled globally or locally (within a function) by adding the directive `"use strict"` at the beginning of your script or function.
+
+### Example
+
+#### Global Strict Mode
+```javascript
+"use strict";
+
+let x = 10;
+console.log(x); // Outputs: 10
+
+// x = 20 without declaration will throw an error
+x = 20; // ReferenceError: x is not defined
+```
+
+#### Local Strict Mode
+```javascript
+function strictFunction() {
+  "use strict";
+  let y = 5;
+  console.log(y); // Outputs: 5
+
+  // y = 10 without declaration will throw an error
+  y = 10; // ReferenceError: y is not defined
+}
+strictFunction();
+```
 
 ---
 
-## 10 Practice Questions
+## 2. **What are the advantages of using Strict Mode?**
+
+1. **Error Prevention**: Detects common mistakes, like assigning to undeclared variables.
+2. **Security**: Disallows potentially dangerous actions, like using `with` statements.
+3. **Performance Optimization**: Enables JavaScript engines to perform better optimizations.
+4. **Future Proofing**: Prohibits usage of reserved keywords for future versions of JavaScript.
+
+### Example
+Without Strict Mode:
+```javascript
+x = 15; // Implicit declaration allowed
+console.log(x); // Outputs: 15
+```
+With Strict Mode:
+```javascript
+"use strict";
+x = 15; // ReferenceError: x is not defined
+```
+
+---
+
+## 3. **List some errors caught by Strict Mode that are ignored otherwise.**
+
+1. Assignment to undeclared variables.
+   ```javascript
+   "use strict";
+   x = 10; // ReferenceError: x is not defined
+   ```
+
+2. Assignments to read-only properties.
+   ```javascript
+   "use strict";
+   const obj = Object.freeze({ key: "value" });
+   obj.key = "newValue"; // TypeError: Cannot assign to read-only property
+   ```
+
+3. Deleting undeletable properties.
+   ```javascript
+   "use strict";
+   delete Object.prototype; // TypeError: Cannot delete property
+   ```
+
+4. Using duplicate parameter names in a function.
+   ```javascript
+   "use strict";
+   function example(a, a) { // SyntaxError: Duplicate parameter name not allowed in strict mode
+     return a;
+   }
+   ```
+
+---
+
+## 4. **Can you use Strict Mode selectively within a JavaScript file? How?**
+
+Yes, Strict Mode can be applied to specific functions rather than the entire script. By adding the directive `"use strict"` within a function scope, only that function will operate in Strict Mode.
+
+### Example
+
+```javascript
+function nonStrictFunction() {
+  x = 10; // No error
+  console.log(x); // Outputs: 10
+}
+
+function strictFunction() {
+  "use strict";
+  y = 20; // ReferenceError: y is not defined
+}
+
+nonStrictFunction();
+strictFunction();
+```
+
+---
+
+## 5. **What happens if you enable Strict Mode in older browsers?**
+
+If an older browser does not support Strict Mode, it will ignore the `"use strict";` directive and execute the code in non-strict mode. To ensure compatibility, you should test your code in environments that support Strict Mode.
+
+### Example for Compatibility
+
+```javascript
+(function () {
+  "use strict";
+  try {
+    undeclaredVariable = 10; // Throws an error in modern browsers
+  } catch (e) {
+    console.log("Strict Mode error caught: " + e.message);
+  }
+})();
+```
+ 
+---
+
+##  Practice Questions
 
 1. Write a script that demonstrates how to enable Strict Mode globally.
 2. Show how Strict Mode prevents the use of undeclared variables.
