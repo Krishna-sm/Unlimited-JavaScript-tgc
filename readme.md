@@ -17,11 +17,11 @@
 13. [1-D Array](/Array/readme.md)
 14. [2-D Array](/2%20D%20Array/readme.md)
 15. [DOM](/DOM/readme.md)
+20. [Storage](/Storage/readme.md)
 16. [Functions](/Functions/readme.md)
 17. [XML Http Request](/XMLHttpRequest/readme.md)
 18. [Promises](/Promises/readme.md)
 19. [Fetch API](/Fetch%20API/readme.md)
 20. [Strict Mode](/Strict%20Mode/readme.md)
-20. [Storage](/Storage/readme.md)
 20. [Data Structure](/Data%20Structure/readme.md)
 -------------
