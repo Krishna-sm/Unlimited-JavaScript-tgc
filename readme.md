@@ -22,5 +22,6 @@
 18. [Promises](/Promises/readme.md)
 19. [Fetch API](/Fetch%20API/readme.md)
 20. [Strict Mode](/Strict%20Mode/readme.md)
+20. [Storage](/Storage/readme.md)
 20. [Data Structure](/Data%20Structure/readme.md)
 -------------
