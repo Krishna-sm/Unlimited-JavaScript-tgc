@@ -204,7 +204,7 @@ Step 1 Complete -> Step 2 Complete -> Step 3 Complete
 Promises are a powerful feature in JavaScript for handling asynchronous operations. By using `.then()`, `.catch()`, and `async/await`, you can write clean and readable asynchronous code while avoiding callback hell.
 
 ------
-
+<!-- 
 ```krishna
 Meri toh zindagi hasi hai, mujhe kisi aur ko lana nahi,
 Tumhare bina iss dil ko, kabhi kisi se behlana nahi.
@@ -222,4 +222,4 @@ Lekar manzil dil mein ek, tanha hi main chala hoon,
 Par tumhare bina yaar, yeh safar adhoora jeene laga hoon.
 
 ---krishna
-```
+``` -->

@@ -295,7 +295,7 @@ window.addEventListener("resize", () => {
 
 ##### 20. **Write a function that repeatedly changes the background color of the page every 1 second using `window.setInterval()`.**
 
-
+<!-- 
 ```krishna
 
 हम्म...
@@ -306,4 +306,4 @@ window.addEventListener("resize", () => {
 मिलेगी जब तुमको, हँसकर वो बोलेगी,
 हमसफ़र का तो पता नहीं, पर दोस्ती से शुरुआत कर लेगी।
  --krishna
-```
+``` -->

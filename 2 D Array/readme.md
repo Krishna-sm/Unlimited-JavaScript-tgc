@@ -382,8 +382,8 @@ Given a partially filled 9x9 Sudoku board, write a function to determine if it i
 
 -----
 
-```js
+<!-- ```js
 मैं हकीकत बता नहीं पाया, शायद इसी वजह से दूर होता हूँ,
 लेकिन तुमको देखने के लिए आँखें नहीं, बस कुछ पुरानी यादें याद कर लेता हूँ।
 --krishna
-```
+``` -->

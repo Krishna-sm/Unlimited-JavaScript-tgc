@@ -248,8 +248,8 @@ If `ok` is `false`, you can handle the error accordingly, even if the request di
 ### 7. Demonstrate how to handle non-JSON responses using the Fetch API.
 
 ---
-
+<!-- 
 ```krishna
 
 ---krishna
-```
+``` -->

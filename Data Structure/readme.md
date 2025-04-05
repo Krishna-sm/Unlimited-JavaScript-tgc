@@ -525,7 +525,7 @@ if (result !== -1) {
 **Answer**: Hash tables provide efficient data retrieval with average constant time complexity O(1) for search, insert, and delete operations, using keys for indexing data. They are ideal for scenarios involving fast lookups.  
 
 
-
+<!-- 
 ```krishna
 Dil lagakar me akela betha hu, barbadi sath me ,...
 
@@ -535,4 +535,4 @@ Mn to nhi hai jeene kya ,... Par sir majbooriyan sawaar hain ...
 
 Free ho tabhi yaad Krna, kyuki sabkuch tmko dekar hm bhi kangaal ho chuke hun....
 ---krishna
-```
+``` -->

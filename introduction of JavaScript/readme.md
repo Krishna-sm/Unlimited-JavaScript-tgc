@@ -165,13 +165,13 @@ By understanding JavaScript's history, features, and applications, beginners can
 
 
 
-```krishna
+<!-- ```krishna
 
     आज मैंने तुम्हें पहली बार देखा, देखकर मैं उलझ गया,
     बाद में पता चला कि कमबख्त ये दिल JavaScript  का हो गया है।
 
     -- krishna
 
-```
+``` -->
 
 <!-- ![alt text](<Group 295.png>) -->

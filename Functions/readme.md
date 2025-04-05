@@ -645,7 +645,7 @@ Errors are handled using `try...catch` blocks. The `finally` block executes rega
 
 -----
 
-```krishna
+<!-- ```krishna
 
 ---krishna
-```
+``` -->

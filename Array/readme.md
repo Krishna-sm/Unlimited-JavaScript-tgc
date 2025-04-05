@@ -702,10 +702,10 @@ for (let key of iterator) {
 ## 15. Write a function that finds the first non-repeating element in an array.
 
 ------
-
+<!-- 
 ```krishna
 
 
 आज ठंड बहुत है, सोचा कि कॉफी पी जाए,
 सोचा फिर, अगर तुम साथ हो तो, कॉफी के साथ 2-4 बातें फ्यूचर की हो जाएं।
-```
+``` -->

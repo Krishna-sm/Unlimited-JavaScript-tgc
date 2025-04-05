@@ -467,7 +467,7 @@ for (let i = 0; i < 5; i++) {
 22. How can you use the break and continue statements in a while loop? Provide examples.
 
 -------
-```krishna
+<!-- ```krishna
 लोग कहते हैं, रात काली होती है,
 पर तुझे देखूं, तो सुहानी लगती है।
 
@@ -475,4 +475,4 @@ for (let i = 0; i < 5; i++) {
 और रात भी सुहानी नजर आने लगती है।
 
 --krishna
-````
+```` -->

@@ -218,7 +218,7 @@ If an older browser does not support Strict Mode, it will ignore the `"use stric
 10. Show an example where Strict Mode is used to improve the code's security.
 
 ---
-
+<!-- 
 ```krishna
 Chahta to me bhi bhut hu... Ki ho , jisse sari baate share kr sku.... ,
 .. vo bhi apni baate share kre...
@@ -229,4 +229,4 @@ Hote hote.. ishq hua.. to isse pyara koi nhi....
 
 Chaht abhi dil me chupa ke betha hu... Baya me ye kr sku itna sahas lekar me abhi Betha hu nhi....
 ---krishna
-```
+``` -->

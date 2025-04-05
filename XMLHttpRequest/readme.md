@@ -127,7 +127,7 @@ xhr.send(JSON.stringify({ title: 'foo', body: 'bar', userId: 1 }));
 
 
 
-```krishna
+<!-- ```krishna
 तो कहना ये था...
 कि खैर ठा री थी मुस्कान तुम्हारी, और तो और आग लगादी तुम्हारी हंसी ने, 
 
@@ -136,4 +136,4 @@ xhr.send(JSON.stringify({ title: 'foo', body: 'bar', userId: 1 }));
 लोग इत्र लगाते हैं खुशबू के लिए....
 मैं हुआ बेताब तुमको एक झलक देखने के लिए
 ---krishna
-```
+``` -->

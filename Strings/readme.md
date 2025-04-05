@@ -548,7 +548,7 @@ Write a function that replaces all characters in a string that are not letters o
 -----
 
 
-```krishna
+<!-- ```krishna
 आज अचानक मैंने सोचा,
 कि गलियाँ बहुत सुनसान हैं,
 इनको भी आदत हो गई मुझे ग़म से चिढ़ाने की।
@@ -557,4 +557,4 @@ Write a function that replaces all characters in a string that are not letters o
 
 
 ---krishna
-```
+``` -->

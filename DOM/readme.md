@@ -694,7 +694,7 @@ How would you add and remove a class `visible` from an element with the ID `moda
 What will `console.log(this)` print in the global scope vs inside an arrow function? Provide examples for both.
 
 -----
-
+<!-- 
 ```krishna
 
 Meri hasi ka thikana nhi tha , 
@@ -708,4 +708,4 @@ Chai pi lein aapke yahan se.
 
 -- Krishna
 
-```
+``` -->
